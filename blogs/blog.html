@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>Dreabee</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="../assets/logo.png" alt="Logo">
+        </a>
+      </div>
+
+
+      <div class="navbar_links">
+        <button class="nav_close-btn">
+          <svg width="28" height="28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Platform</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="#" class="btn-demo">Book a Demo</a>
+          <a href="#" class="btn-creators">For Creators</a>
+        </div>
+
+        <div class="nav-login">
+          <a href="#" class="btn-login"><span>Log In</span></a>
+        </div>
+      </div>
+
+      <button class="nav_menu-btn">
+        <svg width="28" height="28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 12h18"></path>
+          <path d="M3 6h18"></path>
+          <path d="M3 18h18"></path>
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero_content">
+        <h1 class="hero_title">Blogs</h1>
+
+        <div class="blogs_search-header">
+          <input type="text" placeholder="Search">
+          <div class="blogs_search-header-btn">
+            <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.7136 12.4348L10.1165 9.83659C10.8952 8.82185 11.2588 7.5489 11.1334 6.27597C11.0081 5.00304 10.4032 3.82544 9.44157 2.98206C8.47992 2.13868 7.23346 1.69267 5.95506 1.73451C4.67665 1.77635 3.46203 2.3029 2.55757 3.20736C1.65312 4.11181 1.12657 5.32643 1.08473 6.60484C1.04289 7.88324 1.4889 9.1297 2.33228 10.0914C3.17566 11.053 4.35325 11.6579 5.62619 11.7832C6.89912 11.9085 8.17207 11.545 9.18681 10.7663L11.7861 13.3661C11.8472 13.4272 11.9196 13.4756 11.9994 13.5086C12.0791 13.5417 12.1646 13.5587 12.251 13.5587C12.3373 13.5587 12.4228 13.5417 12.5025 13.5086C12.5823 13.4756 12.6548 13.4272 12.7158 13.3661C12.7768 13.3051 12.8253 13.2326 12.8583 13.1529C12.8913 13.0731 12.9083 12.9876 12.9083 12.9013C12.9083 12.815 12.8913 12.7295 12.8583 12.6497C12.8253 12.57 12.7768 12.4975 12.7158 12.4364L12.7136 12.4348ZM2.40556 6.7741C2.40556 6.0386 2.62367 5.31961 3.03229 4.70807C3.44091 4.09652 4.0217 3.61988 4.70121 3.33842C5.38072 3.05695 6.12844 2.98331 6.84981 3.1268C7.57117 3.27029 8.23379 3.62447 8.75387 4.14454C9.27394 4.66462 9.62812 5.32724 9.77161 6.0486C9.9151 6.76997 9.84145 7.51769 9.55999 8.1972C9.27853 8.87671 8.80189 9.4575 8.19034 9.86612C7.5788 10.2747 6.85981 10.4928 6.12431 10.4928C5.13835 10.4918 4.19306 10.0997 3.49588 9.40253C2.7987 8.70535 2.40658 7.76006 2.40556 6.7741Z" fill="black"/>
+              </svg>              
+          </div>
+        </div>
+
+        <div class="hero_actions">
+          <a href="#" class="btn_creators">Discovery</a>
+          <a href="#" class="btn_creators">Discovery</a>
+          <a href="#" class="btn_creators">Operations</a>
+          <a href="#" class="btn_creators">Data & Studies</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="blog_featured-section">
+      <div class="blog_featured-container">
+        <div class="blog_featured-header">
+          <h2 class="blog_featured-title features_title">Featured content</h2>
+          <a href="#" class="blog_featured-btn-all"><span>See All</span></a>
+        </div>
+    
+        <div class="blog_featured-slider-wrapper">
+          <div class="swiper mySwiper blog_featured-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <!-- extra slides yahan add kar sakte ho -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog_featured-section">
+      <div class="blog_featured-container">
+        <div class="blog_featured-header">
+          <h2 class="blog_featured-title features_title">Featured content</h2>
+          <a href="#" class="blog_featured-btn-all"><span>See All</span></a>
+        </div>
+    
+        <div class="blog_featured-slider-wrapper">
+          <div class="swiper mySwiper blog_featured-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <!-- extra slides yahan add kar sakte ho -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog_featured-section">
+      <div class="blog_featured-container">
+        <div class="blog_featured-header">
+          <h2 class="blog_featured-title features_title">Featured content</h2>
+          <a href="#" class="blog_featured-btn-all"><span>See All</span></a>
+        </div>
+    
+        <div class="blog_featured-slider-wrapper">
+          <div class="swiper mySwiper blog_featured-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="swiper-slide blog_featured-slide">
+                <div class="blog_featured-card">
+                  <div class="blog_featured-img">
+                    <img src="../assets/blogs/blog1.png" alt="blog">
+                  </div>
+                  <div class="blog_featured-text">
+                    Minimum View Guarantees in Influencer Marketing: Doing It Right (If You Must)
+                  </div>
+                  <div class="feature_action-btn">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <!-- extra slides yahan add kar sakte ho -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+    <footer class="footer">
+      <div class="footer__container">
+
+        <!-- About -->
+        <div class="footer__about">
+          <div class="footer__heading">About Us</div>
+          <p class="footer__desc">
+            Unified platform for effortless influencer marketing — enabling smarter discovery,
+            streamlined campaign management, and real-time performance tracking.
+          </p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link">
+              <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect y="0.329102" width="25" height="25" fill="url(#pattern0_3_358)" />
+                <defs>
+                  <pattern id="pattern0_3_358" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_3_358" transform="scale(0.04)" />
+                  </pattern>
+                  <image id="image0_3_358" width="25" height="25" preserveAspectRatio="none"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAACZUlEQVR4AbSUX0hTURzH710ni10nKJXposBIR0IvvUVET6NVNBCzkNEfBuFLFFE+ReRDSDC0miOWgaC1l14MI4qoRGy0UloRSpBlZqWbq61yJm07nt91R/a7u8Pp9cL93t/5/e75fT/33nPPNVBKDzE9YBrQQT3M02YQBOE800YmPY4yZtoIECMb6HmYAKInQPbOgnjafeusdmfVkWPnKiZDU0SepfGEIP3+QenylbYtb94OFz7re1l8trF5s0Z/uR1BfkyGV8vV9GkiNFWQHmoKCGKz7vltLt8wC46ErKLH6+0hGGsVghRKxlTQ3/3+cfftoQ/BR8ETjpqfWgHQjyDT8RnxydMXpkjkFwkEgtLQ8Mc1MIm9RgJ1rvFvE/Jr7e1/LV1tbS+Fj4Wt41qYqyYE+TL2vaDeeaGS69rNrlJoet4XMPEaxE7f/ZIDtQ3bDjvOWFzXOzbBx2K1O6ubmj2qmxpBwDAfub13zK8G3hUp57Z575p7HvZm1ZcFSSSS4tHa/SFPy6WR3bt2RjNhbm8X/EoyS8KyIAdteyNu18WvdTX7ovc6W0dKiov+c9fPo+NZa5MXhKa4xXzcUV01PT8SBEKIYKmsiPM8GvtDYrG/Bp5DRAkU1JRKYQrbQ2iaZDSiCfF/M8gXJagzI2EQMSNddKh88rwgVNm1CEZUuKJUFNVvOJmk6hdywJT3hCA5eoREMpHrUl51BKGUqjaJ4pIeJMsDQbZbts6GR/2DXLduNI1Bx6mTdRFeg3i6wRGGOpevw/UJ6lzlZevRoyMIb1rpCJCFjbXS5mk/eWd60okeARa5ZQ4AAP//jR85KwAAAAZJREFUAwA3yjbuiQjm6gAAAABJRU5ErkJggg==" />
+                </defs>
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link">
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect x="0.379883" y="0.329102" width="25" height="25" fill="url(#pattern0_3_361)" />
+                <defs>
+                  <pattern id="pattern0_3_361" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_3_361" transform="scale(0.04)" />
+                  </pattern>
+                  <image id="image0_3_361" width="25" height="25" preserveAspectRatio="none"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAADPklEQVR4AZyVW2iOcRjA329zTA45h3LBvSLFInKFJISEuFDkwinhxqkpzWwOo5Zb7YIhtUZJZJpcsJQLUVZWcyaS805+v+3///ZutrXt6/m9z/N/3uf/PO/7vc/7vDlJ6tfS0pILi6AYKuERPO4FxhlfROwCyE2lTbJFODGfE5VQCAtgImSgN2Kc8QsJLoYK8uWhW6W1CI5FrE7DOGiEctgP2/qA8WXEu38CuoS8XmySgzEMxyFQ6jlszGQyhXAXavqA8WfcD29AOUL+Id7JElbDoQn2kvQlus9CsjzYysYfsA9aYAQstcg8DKWKArUafYXko9lTBBY5Sp4X2PdBybPIZC14CF0KSWaDHWcX2W1qO2l22OBVi8sPHqAGlCkWGaMFX+E/IbkPtJQTPkS7CDNR20mlnN/DlX/BuR7y4RgonzzAWIsMxVB+eUhDgo2s14LynoPtbccdxrZJUMkG4tZRqA4q4K9O+AnKYIsM1II/kBU2TmOxE5TbHFaRoBzsuJus18ANUHYRP1UjRXOwMxYJdmJ3RVvtHXjeK/ZhdrgIijUQdBzeghdqPGZWuixiwmwExkxQ/As6FNApFNIf72aGvhSxSG46cYd5Q7A9jkpee+iB+OLZxumw2G056SLpAG07Ru2oUXeHM8tzMV5bYpH2Aam3E0/DejUPdXCwO6jgXxmcT4KOKt5AczTiibR2SLqewqGAhCPRWWHtzHNWeac2wZXsyTYj/v1NFnFq6vYFU7fCQ3WGlbQuksTPwDUS74G5YCdd51x8488SX8c6LXac6waL/NYChySqXdh4kZUzyQsZhb0BzoFTwAet/yRxl/B1lkHB0WiRj2ERx0tYtqmQwORX8TwHL+oZ2r/HN/0ydlcyPjg/WyS2aOc+DzFJQqFaKAC/NfPQm+AEvEq6/8V89RZ5EOIW8187SsKy/4o809nt1xaVVFvEN/Y7Kx+849wAlv2TUOAUu833DX0rh1t2WsbxbLuWEXgAtsAcmNULjDtI3A6S+p2fhFbyze+d+J/fwbMbbIIBaCfsdvR5uNALjFtB3GZwv5+FHRS4x7r9jcdRjWMZ2J5V6HeQHQ3YPYlxxpvU7/ty8mW/tP8AAAD//3GWQCwAAAAGSURBVAMA5Ah41fAzORwAAAAASUVORK5CYII=" />
+                </defs>
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link">
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect x="0.165039" y="0.329102" width="25" height="25" fill="url(#pattern0_3_363)" />
+                <defs>
+                  <pattern id="pattern0_3_363" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_3_363" transform="scale(0.04)" />
+                  </pattern>
+                  <image id="image0_3_363" width="25" height="25" preserveAspectRatio="none"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAACeklEQVR4AbSUS0hUcRjFx9EWUW5mMh8QzaKxsoYWLiZqoVQukgLBbQUZUVAmEcG4aBEtJgjCrIFa6KJFUFTMqkzdJKVERIsgyCJMo7fI6MLHlNPvXGfuvO69DDrKd+b7f+d/vnO4c3HcLoe/RCJRBnaDTnAX9IERoK5ZfJC5zMHGZRvCYhOLUXALtII6sAGsAeqaxUeYo+gP0C0rLwSxD9xBHQZVoJCS7qr2gC93ISsEQS2Cm6AeLKe0141PVpAZwsVGXLtANVhJ1bAcwa+SbpQRArGOqRsoiJZfU1Ox0mMnQ74K3576TOQrDUYBXUlf88Xv42oLsKx4/K+rufXU1qcDQ15LgTXph5avy01aKUMbsK2hl6/Xf/o8vtZWYH/RJn99XUE0m4Btzc0vSGfeX+w4MfF7bPiNYJLWB/kGtdxgfZ9mE4uJ9MCp1r95nlZoNSgk4KS+dOVGzYPHfZ5MzcNov0f85XBE/x+ZV1bngEIcX+btnvvVuS/82eALj3jCK6xcczivQspzyILHqkrvQgHicoXMOAnv9VwbvdB+/GumRrP46+HQl0ze5jypkEmbS4Nu2r93Zmedf9YYkh87tvtnxe8KbJtLUk7NCHnnpCjC3Qc9yfMiGDlZ9CvkFYoJsBol37fukpKSf7j3gtWoXvwX9SQyf8LHKChmfcRMvku/wqTpac5D/gTFqF+YdCR9l0IgXBAKOMP5G8iqQwcbp/VjmMLh5sbpLEH28J3xNH4K4uhKh2jiYox+FAyD5dQIS0fwGaeblXonJoEgBs5BhMAPUEhJ18leO4jlLuSFpASIBzm3AH2Fj+jvwR8QB+qaxZ9lbkE/QLes/wAAAP//vUMfzgAAAAZJREFUAwBuM+P2ajtHkQAAAABJRU5ErkJggg==" />
+                </defs>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Features -->
+        <div class="footer__features">
+          <div class="footer__heading">Features & Services</div>
+          <div class="footer__links">
+            <a href="#">Influencer Analytics</a>
+            <a href="#">Competitor Research</a>
+            <a href="#">Brand Analysis</a>
+            <a href="#">Campaign Reports</a>
+            <a href="#">Blog</a>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="footer__tools">
+          <div class="footer__heading">Free Influencer Tools</div>
+          <div class="footer__links">
+            <a href="#">Instagram Fake Followers</a>
+            <a href="#">YouTube Engagement Rate Calculator</a>
+            <a href="#">YouTube Engagement Rate Calculator</a>
+            <a href="#">YouTube Engagement Rate Calculator</a>
+            <a href="#">Youtube Analytics</a>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer__contact">
+          <div class="footer__heading">Contact Info</div>
+          <div class="footer__links">
+            <a href="#">
+              <span class="feature_item_icon"><img src="../assets/MapPin.svg" alt="icon"> </span>
+              <span>Office India Gorakhpur, 273001</span>
+            </a>
+            <a href="mailto:hello@dreabee.com">
+              <span class="feature_item_icon"><img src="../assets/Envelope.svg" alt="icon"> </span>
+              <span>hello@dreabee.com</span>
+            </a>
+            <a href="tel:+91 7739083447">
+              <span class="feature_item_icon"><img src="../assets/Phone.svg" alt="icon"> </span>
+              <span>+91 7739083447</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Legal -->
+        <div class="footer__legal">
+          <div class="footer__heading">Legal</div>
+          <div class="footer__links">
+            <a href="#">Terms & Conditions Privacy Policy</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2025 Dreabee. All rights reserved</p>
+      </div>
+    </footer>
+
+
+
+  </main>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 'auto',
+      spaceBetween: 16,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
+  <script src="../script.js"></script>
+</body>
+
+</html>
