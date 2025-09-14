@@ -792,6 +792,10 @@ main {
     font-weight: 300;
     color: var(--secondary-color);
     line-height: 24px;
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
 }
 
 .testimonial__cta {
@@ -1499,7 +1503,8 @@ main {
     gap: 10px;
 }
 
-.research_links a {
+.research_links a,
+.brand_monitoring-btn-link a {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -1941,6 +1946,17 @@ main {
     font-family: var(--manrope-l);
     font-weight: 300;
     color: var(--white-color);
+}
+
+.brand_monitoring-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.search_testi-log {
+    margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 1300px) {
