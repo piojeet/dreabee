@@ -363,7 +363,6 @@ main {
     font-family: var(--manrope-l);
     font-weight: 300;
     color: var(--secondary-color);
-    list-style: 1;
 }
 
 .feature_item_icon {
@@ -417,7 +416,7 @@ main {
 .feature_item_toggle-content p {
     max-width: 450px;
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
     font-family: var(--manrope-l);
     color: var(--secondary-color);
     line-height: 30px;
@@ -1922,6 +1921,26 @@ main {
 
 .pricing_table-title {
     text-align: center;
+}
+
+.testimonial_disc {
+    font-family: var(--manrope-l);
+    font-weight: 300;
+    color: var(--bg-color);
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.feature_item_icon-mb {
+    margin-bottom: 1rem;
+}
+
+.keyfeatures__icon {
+    font-family: var(--manrope-l);
+    font-weight: 300;
+    color: var(--white-color);
 }
 
 @media only screen and (max-width: 1300px) {
