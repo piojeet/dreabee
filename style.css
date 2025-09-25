@@ -1364,7 +1364,7 @@ main {
     width: 100%;
     padding: 20px;
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 210px 1fr;
     gap: 20px;
 }
 
@@ -1505,7 +1505,7 @@ main {
     font-family: var(--bdogrotesk-m);
     color: var(--primary-color);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 5px;
 }
 
@@ -1547,7 +1547,6 @@ main {
 .fakeFollower_audience-list ul {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     padding-left: 1rem;
     font-family: var(--manrope-r);
     color: var(--black-color);
@@ -1556,13 +1555,15 @@ main {
 }
 
 .fakeFollower_audience-list ul li::before {
-    content: "•";         /* bullet */
-    color: var(--primary-color);           /* sirf bullet ka color */
+    content: "•";
+    /* bullet */
+    color: var(--primary-color);
+    /* sirf bullet ka color */
     display: inline-block;
     width: 1em;
     margin-left: -1em;
     font-size: 25px;
-  }
+}
 
 .fakeFollower_stats {
     display: flex;
@@ -2341,7 +2342,7 @@ main {
 
     .fake-follower7_image-chaild {
         width: 25vw;
-            bottom: -19px;
+        bottom: -19px;
     }
 
     .analytics-child-this {
@@ -2478,6 +2479,14 @@ main {
 
     .search2-image-child2 {
         bottom: -1rem;
+    }
+
+    .fakeFollower_stats {
+        flex-wrap: wrap;
+    }
+
+    .hero_content-fakefollower {
+        margin-bottom: 800px;
     }
 }
 
@@ -2749,7 +2758,7 @@ main {
     .search2-image-child2 {
         bottom: -1rem;
     }
-    
+
     .discuvery-child2 {
         width: 40vw;
     }
@@ -2775,6 +2784,23 @@ main {
     .pricing_table-header {
         width: 176px;
         padding: 50px 1rem;
+    }
+
+    .fakeFollower_audience {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .hero_content-fakefollower {
+        margin-bottom: 1100px;
+    }
+
+    .fakeFollower_chart #chart {
+        margin: auto;
+    }
+
+    .fakeFollower_container {
+        grid-template-columns: 180px 1fr;
     }
 }
 
@@ -2961,6 +2987,19 @@ main {
     .footer__bottom {
         font-size: 14px;
     }
+
+    .hero_content-fakefollower {
+        margin-bottom: 1600px;
+    }
+
+    .fakeFollower_user-img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .fakeFollower_container {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -3006,4 +3045,23 @@ main {
         gap: 10px;
     }
 
+    .hero_content-fakefollower {
+        margin-bottom: 1400px;
+    }
+
+    .fakeFollower_chart #chart {
+        width: 150px;
+        display: block;
+    }
+
+    .fakeFollower_audience-list ul {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 421px) {
+    .hero_content-fakefollower {
+        margin-bottom: 1500px;
+    }
 }
