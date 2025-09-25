@@ -534,7 +534,8 @@ main {
     font-family: var(--manrope-r);
     color: var(--secondary-color);
     font-weight: 300;
-    line-height: 24px;
+    line-height: 30px;
+    font-size: 18px;
 }
 
 .insights_row {
