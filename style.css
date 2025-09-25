@@ -271,6 +271,7 @@ main {
 .hero_img-ab {
     position: absolute;
     width: calc(100% - 4rem);
+    max-width: 1331px;
     left: 50%;
     transform: translateX(-50%);
 }
