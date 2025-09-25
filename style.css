@@ -1481,7 +1481,7 @@ main {
 .fakeFollower_stat-item {
     background: var(--white-color);
     width: 100%;
-    padding: 20px;
+    padding: 30px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
