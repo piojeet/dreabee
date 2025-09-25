@@ -506,6 +506,10 @@ main {
     padding: 100px 2rem;
 }
 
+.compare_wrapper-sm-w {
+    grid-template-columns: 1fr .7fr;
+}
+
 .compare_images {
     position: relative;
     text-align: end;
