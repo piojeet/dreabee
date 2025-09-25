@@ -1471,11 +1471,11 @@ main {
 }
 
 .fakeFollower_chart #chart {
-    width: 80%;
+    width: 90%;
 }
 
 .hero_content-fakefollower {
-    margin-bottom: 420px;
+    margin-bottom: 560px;
 }
 
 .fakeFollower_stat-item {
@@ -1539,9 +1539,9 @@ main {
 
 .fakeFollower_audience-title {
     font-family: var(--bdogrotesk-m);
-    font-weight: 500;
+    font-weight: 600;
     color: var(--black-color);
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 
 .fakeFollower_audience-list ul {
@@ -1552,6 +1552,7 @@ main {
     color: var(--black-color);
     font-size: 14px;
     list-style: none;
+    gap: 10px;
 }
 
 .fakeFollower_audience-list ul li::before {
