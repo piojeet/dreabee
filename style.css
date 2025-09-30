@@ -507,7 +507,7 @@ main {
 }
 
 .compare_wrapper-sm-w {
-    grid-template-columns: 1fr .7fr;
+    grid-template-columns: 1fr .5fr;
 }
 
 .compare_images {
@@ -2363,6 +2363,10 @@ main {
     .discuvery-child1 {
         width: 15vw;
     }
+
+    .hero_content-fakefollower {
+        margin-bottom: 740px;
+    }
 }
 
 @media only screen and (max-width: 950px) {
@@ -2493,7 +2497,49 @@ main {
     }
 
     .hero_content-fakefollower {
-        margin-bottom: 800px;
+        margin-bottom: 1140px;
+    }
+}
+
+@media only screen and (max-width: 876px) {
+    .hero_content-fakefollower {
+        margin-bottom: 1200px;
+    }
+}
+
+@media only screen and (max-width: 858px) {
+    .hero_content-fakefollower {
+        margin-bottom: 1300px;
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .hero_content-fakefollower {
+        margin-bottom: 1400px;
+    }
+}
+
+@media only screen and (max-width: 816px) {
+    .hero_content-fakefollower {
+        margin-bottom: 1500px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .hero_content-fakefollower {
+        margin-bottom: 1600px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hero_content-fakefollower {
+        margin-bottom: 1700px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .hero_content-fakefollower {
+        margin-bottom: 1800px;
     }
 }
 
@@ -2799,7 +2845,7 @@ main {
     }
 
     .hero_content-fakefollower {
-        margin-bottom: 1100px;
+        margin-bottom: 1390px;
     }
 
     .fakeFollower_chart #chart {
@@ -2996,7 +3042,7 @@ main {
     }
 
     .hero_content-fakefollower {
-        margin-bottom: 1600px;
+        margin-bottom: 1830px;
     }
 
     .fakeFollower_user-img {
@@ -3053,7 +3099,7 @@ main {
     }
 
     .hero_content-fakefollower {
-        margin-bottom: 1400px;
+        margin-bottom: 1700px;
     }
 
     .fakeFollower_chart #chart {
@@ -3069,6 +3115,18 @@ main {
 
 @media only screen and (max-width: 421px) {
     .hero_content-fakefollower {
-        margin-bottom: 1500px;
+        margin-bottom: 1700px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .hero_content-fakefollower {
+        margin-bottom: 1750px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .hero_content-fakefollower {
+        margin-bottom: 1800px;
     }
 }
